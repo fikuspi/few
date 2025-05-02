@@ -1,3 +1,3 @@
-install:
-    gcc few.c -o few
-    cp few /bin/
+#!/bin/bash
+gcc few.c -o few
+cp few /bin/
